@@ -1,0 +1,14 @@
+code	size	vers	act		note
+AREN	M		9.0.0	IN		NEW
+AREN	L		9.3.2	REPL	M < L
+AREN	M		9.2.6	SKIP	L > M
+ENEL	M		9.0.0	IN		NEW
+ENEL	M		9.3.3	REPL	< vers
+ENEL	M		9.2.0	SKIP	> vers
+AREN	L		10.3.2	REPL	< vers
+AREN 	L 		8.3.2	SKIP	> vers			
+
+opening file Golden_input_trs_I.json
+name	sortcode	srccode	srcname	tgtcode	tgtname	domain	version	distrib	key	owner	size
+Translator NMT Generic (L) - AREN	Genericaren	ar	en	Arabic	English	Generic	10.3.2	all	cc49796e-f6ea-423c-b455-5799051c4c5f	Systran	L
+Translator NMT Generic (L) - ENEL	Genericenel	en	el	English	Greek	Generic	9.3.3	all	b4ee28b6-b172-4431-8db0-a9b657c53340	Systran	M

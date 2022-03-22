@@ -1,0 +1,31 @@
+#Requirements
+Python v3.6
+
+#Description
+This folder contains scripts to display the latest version of SYSTRAN's language resource catalog according to the following criteria:
+* SYSTRAN Owned
+* English Centric
+* Generic and Domain
+
+It will prioritize 'L' sized models over 'M'.
+
+#Operation:
+Run the scripts in the following order:
+
+./gettrlist.sh > trs_json_out
+	NOTE: you must provide valid API KEY to the curl cmd
+
+python parselatest.py trs_json_out
+	NOTE: parselatest.py was validated on python v3.6
+
+#Output
+The output of 'parselatest.py' will store the parsed list of TRs in 'output_trs'.
+
+#Testing
+To ensure that 'parselatest.py' is functionning as expected you can use the following test input files:
+* Golden_input_trs_I.json
+* Golden_input_trs_II.json
+
+Their output_trs should be identical to: 
+* Golden_output_trs_I
+* Golden_output_trs_II

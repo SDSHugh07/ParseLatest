@@ -1,0 +1,5 @@
+name	sortcode	srccode	srcname	tgtcode	tgtname	domain	version	distrib	key	owner	size
+Translator NMT Generic (M) - AREN	Genericaren	ar	en	Arabic	English	Generic	9.0.0	redhat-7	b070686b-2a4e-4fd3-85d8-a0a34e35d93e	Systran	M
+Translator NMT Generic (L) - ENEL	Genericenel	en	el	English	Greek	Generic	9.3.3	all	b4ee28b6-b172-4431-8db0-a9b657c53340	Systran	L
+Translator NMT Generic (L) - ENFR	Genericenfr	en	fr	English	French	Generic	9.3.2	all	22873c40-c8d9-42e9-9e80-f3ee575e4cf9	Systran	M
+Translator NMT Generic (L) - ENFA	Genericenfa	en	fa	English	Farsi	Generic	10.2.0	all	79de67bb-dd24-4083-a1ba-cce679ecdac0	Systran	L

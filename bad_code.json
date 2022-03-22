@@ -1,0 +1,297 @@
+{
+  "total": 1889,
+  "offset": 0,
+  "translationResources": [
+    {
+      "_id": "6010cdca4bb0df29a30257e3",
+      "dependencies": {
+        "TranslatorInternalContainer_enfa_Generic": "9.2.0",
+        "TranslatorInternalPTE_enfa_Generic": "9.2.0"
+      },
+      "packageDependencies": {
+        "systran-translation-dispatcher": "^8.12"
+      },
+      "master": true,
+      "description": {
+        "distrib": "all",
+        "architecture": "x86_64",
+        "description": "enfa NMT Generic (M) - Master",
+        "key": "33cee24b-9e72-4b50-8b75-81029ba211f1",
+        "name": "Translator NMT Generic (M) - ENFA",
+        "role": "TranslatorNMT_enfa_Generic",
+        "runnable": true,
+        "model": "SSPBA_enfa_BornTuna_42_61cd5b27de6d43ed80-57db4_release",
+        "service": "Translate_en_fa",
+        "sourceLanguage": "xx",
+        "targetLanguage": "en",
+        "type": "flow translator nmt",
+        "flow": [
+          "TranslatorInternalContainer_enfa_Generic",
+          "TranslatorInternalPTE_enfa_Generic"
+        ],
+        "version_pushProfile": "3.2.2"
+      },
+      "selectors": {
+        "owner": "Systran",
+        "domain": "Generic",
+        "languagePair": "enfa",
+        "size": "M",
+        "tech": {
+          "details": [
+            {
+              "type": "NMT",
+              "name": "Docker-OpenNMT-ctranslate"
+            }
+          ],
+          "type": "NMT",
+          "name": "Docker-OpenNMT-ctranslate"
+        }
+      },
+      "linguisticProfileSchema": "3.0.0",
+      "version": {
+        "major": 9,
+        "minor": 2,
+        "patch": 0
+      },
+      "stages": [
+        "testing",
+        "beta",
+        "stable"
+      ],
+      "insertedAt": "2021-01-27T02:19:54.476Z",
+      "updatedAt": "2021-01-27T02:43:08.427Z",
+      "createdBy": "134610",
+      "createdByDisplayName": "Petra\u00c2\u00a0Bayrami",
+      "createdByName": "bayrami",
+      "updatedBy": "134610",
+      "updatedByDisplayName": "Petra\u00c2\u00a0Bayrami",
+      "updatedByName": "bayrami",
+      "updates": [
+        {
+          "at": "2021-01-27T02:19:54.476Z",
+          "by": "134610",
+          "byDisplayName": "Petra\u00c2\u00a0Bayrami",
+          "byName": "bayrami",
+          "patch": {
+            "dependencies": {
+              "TranslatorInternalContainer_enfa_Generic": "9.2.0",
+              "TranslatorInternalPTE_enfa_Generic": "9.2.0"
+            },
+            "packageDependencies": {
+              "systran-translation-dispatcher": "^8.12"
+            },
+            "master": true,
+            "description": {
+              "distrib": "redhat-7",
+              "architecture": "x86_64",
+              "description": "enfa NMT Generic (M) - Master",
+              "key": "33cee24b-9e72-4b50-8b75-81029ba211f1",
+              "name": "Translator NMT Generic (M) - ENFA",
+              "role": "TranslatorNMT_enfa_Generic",
+              "runnable": true,
+              "model": "SSPBA_enfa_BornTuna_42_61cd5b27de6d43ed80-57db4_release",
+              "service": "Translate_en_fa",
+              "sourceLanguage": "en",
+              "targetLanguage": "fa",
+              "type": "flow translator nmt",
+              "flow": [
+                "TranslatorInternalContainer_enfa_Generic",
+                "TranslatorInternalPTE_enfa_Generic"
+              ],
+              "version_pushProfile": "3.2.2"
+            },
+            "selectors": {
+              "owner": "Systran",
+              "domain": "Generic",
+              "languagePair": "enfa",
+              "size": "M",
+              "tech": {
+                "details": [
+                  {
+                    "type": "NMT",
+                    "name": "Docker-OpenNMT-ctranslate"
+                  }
+                ],
+                "type": "NMT",
+                "name": "Docker-OpenNMT-ctranslate"
+              }
+            },
+            "linguisticProfileSchema": "3.0.0",
+            "version": {
+              "major": 9,
+              "minor": 2,
+              "patch": 0
+            },
+            "stages": [
+              "testing"
+            ]
+          }
+        },
+        {
+          "at": "2021-01-27T02:19:58.848Z",
+          "by": "134610",
+          "byDisplayName": "Petra\u00c2\u00a0Bayrami",
+          "byName": "bayrami",
+          "patch": {
+            "eventHook": [
+              {
+                "name": "DEPLOY_TR",
+                "data": {
+                  "StatusCode": 200,
+                  "ExecutedVersion": "$LATEST",
+                  "Payload": "{\"ResponseMetadata\":{\"RequestId\":\"60bc6cfd-f0c7-51ff-8ba3-347720c95db8\"},\"MD5OfMessageBody\":\"a828f9ab1e589a838acd588bf6599203\",\"MessageId\":\"9ef1a2eb-63ab-44d9-ba8c-94aa202fdafb\"}"
+                }
+              },
+              {
+                "name": "SLACK_NOTIFY",
+                "data": {
+                  "StatusCode": 200,
+                  "ExecutedVersion": "$LATEST",
+                  "Payload": "null"
+                }
+              },
+              {},
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        },
+        {
+          "at": "2021-01-27T02:20:58.417Z",
+          "by": "134610",
+          "byDisplayName": "Petra\u00c2\u00a0Bayrami",
+          "byName": "bayrami",
+          "patch": {
+            "openedStage": null,
+            "validatedStages": [
+              "testing"
+            ],
+            "rejectedStages": [],
+            "rejected": false,
+            "validated": true
+          }
+        },
+        {
+          "at": "2021-01-27T02:21:03.882Z",
+          "by": "134610",
+          "byDisplayName": "Petra\u00c2\u00a0Bayrami",
+          "byName": "bayrami",
+          "patch": {
+            "stages": [
+              "testing",
+              "beta"
+            ],
+            "openedStage": "beta",
+            "validatedStages": [
+              "testing"
+            ],
+            "rejectedStages": [],
+            "validated": false,
+            "rejected": false
+          }
+        },
+        {
+          "at": "2021-01-27T02:21:28.664Z",
+          "by": "134610",
+          "byDisplayName": "Petra\u00c2\u00a0Bayrami",
+          "byName": "bayrami",
+          "patch": {
+            "openedStage": null,
+            "validatedStages": [
+              "testing",
+              "beta"
+            ],
+            "rejectedStages": [],
+            "rejected": false,
+            "validated": true
+          }
+        },
+        {
+          "at": "2021-01-27T02:43:05.065Z",
+          "by": "134610",
+          "byDisplayName": "Petra\u00c2\u00a0Bayrami",
+          "byName": "bayrami",
+          "patch": {
+            "stages": [
+              "testing",
+              "beta",
+              "stable"
+            ],
+            "openedStage": "stable",
+            "validatedStages": [
+              "testing",
+              "beta"
+            ],
+            "rejectedStages": [],
+            "validated": false,
+            "rejected": false
+          }
+        },
+        {
+          "at": "2021-01-27T02:43:08.427Z",
+          "by": "134610",
+          "byDisplayName": "Petra\u00c2\u00a0Bayrami",
+          "byName": "bayrami",
+          "patch": {
+            "openedStage": null,
+            "validatedStages": [
+              "testing",
+              "beta",
+              "stable"
+            ],
+            "rejectedStages": [],
+            "rejected": false,
+            "validated": true
+          }
+        }
+      ],
+      "eventHook": [
+        {
+          "name": "DEPLOY_TR",
+          "data": {
+            "StatusCode": 200,
+            "ExecutedVersion": "$LATEST",
+            "Payload": "{\"ResponseMetadata\":{\"RequestId\":\"60bc6cfd-f0c7-51ff-8ba3-347720c95db8\"},\"MD5OfMessageBody\":\"a828f9ab1e589a838acd588bf6599203\",\"MessageId\":\"9ef1a2eb-63ab-44d9-ba8c-94aa202fdafb\"}"
+          }
+        },
+        {
+          "name": "SLACK_NOTIFY",
+          "data": {
+            "StatusCode": 200,
+            "ExecutedVersion": "$LATEST",
+            "Payload": "null"
+          }
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "openedStage": null,
+      "rejected": false,
+      "rejectedStages": [],
+      "validated": true,
+      "validatedStages": [
+        "testing",
+        "beta",
+        "stable"
+      ],
+      "model": {
+        "commercialType": "public",
+        "status": "archived",
+        "id": "5f2c265030d25e4c6f1eb7d6",
+        "entityId": "5f2bcf23cc8ca147cd9c8824"
+      },
+      "options": {
+        "values": {
+          "expirationSignVersion": "2",
+          "expiration": 0,
+          "expirationSign": "fxg+W+G7TwlqT+UVpqMbz0Z3j0oXzrLqIm3eL7I4ROeAQpZ0LHqVK7mlUVpTSXSgff2e3Mcqp+Y4LzvDj9Yxml1E3mqPpnuEl/NBQC917CT5l/HJW77c7gWQhEgKO3T6nrK3n8WzmfhFx+FI/iVE1alvdVFtSIimtJAE27rxnWtIxi2RXANpRkCiSQExL6b5lwcLHc2L62Jdbrcl2yiIX6HW4JpAcR3ztt5vHE9l/i4LQlF4uBDCm5I9tV2ICMkeGgY/ZBgi8qOqNIV6GRprwYrJFmSmTcfqb5OqHYuff/iqjQBJNSNmbiYrbaPjIAryUXM2bgQF2XlmawIen1+CsA=="
+        }
+      }
+    }
+  ]
+}
